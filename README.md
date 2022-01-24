@@ -88,21 +88,23 @@ First must be complete for score of  _Exceeds Expectations_
 ## Markdown
 
 ```
-Hey ___,
+Hey Chris,
+
+Clean and comments help explain what you're doing. Smart to use store value for useState. 👍🏼
 
 General Feedback.
 
 ---
-| Functional Requirements | Complete? |
+| Functional Requirements | Complete? | yes
 | --- | :---: |
-| Multi page form with client side routing and navigation (next button) | no |
-| Data stored in Redux when navigating from page to page | no |
-| User is notified when trying to leave a blank score | no |
-| Review Component displays scores and comments from current redux state | no |
-| Submit button sends data to the server via Axios | no |
-| Confirmaion Page displays after data is POSTed to the server | no |
-| Button on Confirmation Page clears Redux and starts a new survey | no |
-| Views are broken down into components | no |
+| Multi page form with client side routing and navigation (next button) | yes |
+| Data stored in Redux when navigating from page to page | yes |
+| User is notified when trying to leave a blank score | used a select |
+| Review Component displays scores and comments from current redux state | yes |
+| Submit button sends data to the server via Axios | yes |
+| Confirmaion Page displays after data is POSTed to the server | yes |
+| Button on Confirmation Page clears Redux and starts a new survey | yes |
+| Views are broken down into components | yes |
 
 ---
 ### Notes:
@@ -124,4 +126,4 @@ Notes on the above Functional Requirements.
 
 Notes on General Items
 
-Clean and comments help explain what you're doing. Smart to use store value for useState. 👍🏼
+

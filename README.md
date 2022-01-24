@@ -65,7 +65,7 @@ First must be complete for score of  _Exceeds Expectations_
 
 - Previous Steps
   - [ ] allows a user to go to a previous step, either directly or by cycling backward thru the steps
-  - [ ] user can upate their score for a step
+  - [ ] user can update their score for a step
     - [ ] new score is validated to not be empty
     - [ ] redux is updated with new score
   - [ ] user can continue on to review page and submit as in Base Mode
@@ -112,14 +112,14 @@ General Feedback.
 Notes on the above Functional Requirements.
 
 ---
-| General Items | Complete? |
+| General Items | Complete? | yes
 | --- | :---: |
 | More than 15 git commits | yes |
 | Commits are descriptive of the changes made or feature added | yes |
 | Readme file updated | no |
 | Appropriate amount of code comments | yes |
 | Code is consistently formatted | yes |
-| Server code organized with router & module files | no |
+| Server code organized with router & module files | yes |
 
 ---
 ### Notes:

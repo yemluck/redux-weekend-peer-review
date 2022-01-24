@@ -16,48 +16,48 @@ Practicing compassionate code reviews is important (you can learn more from this
 ## Base Required Features 
 
 - Multi-Part Form:  
-  - [ ] Able to add feedback
-    - [ ] Data collected on individual pages & components
-    - [ ] Click on next takes you to the next page in sequence
-    - [ ] Data saves in DB after *all* the parts are completed (not piecemeal)
-    - [ ] Thank you page takes you back to the first view
-    - [ ] Old Data is cleared on form completion
+  - [x] Able to add feedback
+    - [x] Data collected on individual pages & components
+    - [x] Click on next takes you to the next page in sequence
+    - [x] Data saves in DB after *all* the parts are completed (not piecemeal)
+    - [x] Thank you page takes you back to the first view
+    - [x] Old Data is cleared on form completion
 
 - Client code:
-  - [ ]  Individual components for each form part
-  - [ ]  Redux setup complete
-    - [ ] Store linked to react with `<Provider>`
-    - [ ] Store setup with reducer(s) and logger middleware 
-  - [ ] Reducers & Actions Working
-    - [ ] Actions are in SCREAMING_SNAKE_CASE and semantically named
-    - [ ] Actions have a `type` key, and `payload` if sending data
-    - [ ] Reducers are returning a new state, or the old state (not mutating)
-    - [ ] Reducers are using spread correctly (to keep old data, while adding new)
-  - [ ] Review Component shows at all times with current redux state
-  - [ ] React-Redux Working
-    - [ ] Dispatching actions onClick
-    - [ ] Grabbing data from the redux store with `useSelector`
-  - [ ] Axios POST request to add feedback
+  - [x]  Individual components for each form part
+  - [x]  Redux setup complete
+    - [x] Store linked to react with `<Provider>`
+    - [x] Store setup with reducer(s) and logger middleware 
+  - [x] Reducers & Actions Working
+    - [x] Actions are in SCREAMING_SNAKE_CASE and semantically named
+    - [x] Actions have a `type` key, and `payload` if sending data
+    - [x] Reducers are returning a new state, or the old state (not mutating)
+    - [x] Reducers are using spread correctly (to keep old data, while adding new)
+  - [x] Review Component shows at all times with current redux state
+  - [x] React-Redux Working
+    - [x] Dispatching actions onClick
+    - [x] Grabbing data from the redux store with `useSelector`
+  - [x] Axios POST request to add feedback
 
 
 - Server code:   
-  - [ ] Router made for GET, POST
+  - [x] Router made for GET, POST -- GET not needed on base mode
 
 
 ## General Items
 Feedback should be provided for these items, but they do not impact scoring.
 
 - Git 
-  - [ ] Multiple git commits showing incremental progress
-  - [ ] Commits are descriptive of the changes made or feature added 
-  - [ ] Has .gitignore with node_modules
+  - [x] Multiple git commits showing incremental progress
+  - [x] Commits are descriptive of the changes made or feature added 
+  - [x] Has .gitignore with node_modules
   - [ ] Readme file updated (assuming this is previously discussed)
 - Code Style 
-  - [ ] Appropriate amount of code comments
-  - [ ] Code is consistently formatted
+  - [x] Appropriate amount of code comments
+  - [x] Code is consistently formatted
 - Client
-  - [ ] Appropriate use of HTML tags
-  - [ ] Basic CSS styling with margins/padding
+  - [x] Appropriate use of HTML tags
+  - [ kinda with MUI ] Basic CSS styling with margins/padding
 
 
 ## Stretch Goals
@@ -112,11 +112,11 @@ Notes on the above Functional Requirements.
 ---
 | General Items | Complete? |
 | --- | :---: |
-| More than 15 git commits | no |
-| Commits are descriptive of the changes made or feature added | no |
+| More than 15 git commits | yes |
+| Commits are descriptive of the changes made or feature added | yes |
 | Readme file updated | no |
-| Appropriate amount of code comments | no |
-| Code is consistently formatted | no |
+| Appropriate amount of code comments | yes |
+| Code is consistently formatted | yes |
 | Server code organized with router & module files | no |
 
 ---
@@ -124,4 +124,4 @@ Notes on the above Functional Requirements.
 
 Notes on General Items
 
-```
+Clean and comments help explain what you're doing. Smart to use store value for useState. 👍🏼
